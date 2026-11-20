@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sessionist: Game Tracker</title><style>
-:root { --ink:#1b1b1f; --muted:#6b6b74; --bg:#faf8f5; --card:#fff; --accent:#6c5ce7; }
-@media (prefers-color-scheme: dark) { :root { --ink:#f1efec; --muted:#a3a3ab; --bg:#141416; --card:#1e1e22; --accent:#9d8cff; } }
+:root { --ink:#1b1b1f; --muted:#6b6b74; --bg:#faf8f5; --card:#fff; --accent:#6c5ce7; --accent-ink:#fff; --border:rgba(27,27,31,.12); }
+@media (prefers-color-scheme: dark) { :root { --ink:#f1efec; --muted:#a3a3ab; --bg:#141416; --card:#1e1e22; --accent:#9d8cff; --accent-ink:#141416; --border:rgba(241,239,236,.14); } }
 * { box-sizing: border-box; }
 body { margin:0; font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--bg); }
 main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
@@ -14,23 +14,32 @@ a { color: var(--accent); }
 nav { display:flex; gap:18px; margin-bottom: 32px; font-weight:600; }
 nav a { text-decoration:none; }
 .card { background:var(--card); border-radius:16px; padding:18px 20px; margin: 14px 0; }
+.actions { display:flex; flex-wrap:wrap; gap:12px; margin: 20px 0 8px; }
+.btn { display:inline-block; padding:11px 18px; border-radius:12px; font-weight:600; text-decoration:none; background:var(--accent); color:var(--accent-ink); }
+.btn-secondary { background:var(--card); color:var(--ink); border:1px solid var(--border); }
+.small { font-size:14px; margin-top:4px; }
 </style></head>
 <body><main>
 <nav><a href="./">Sessionist</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
 <h1>Sessionist: Game Tracker</h1>
 <p class="muted">Track how long you play &mdash; on iPhone, iPad and Mac.</p>
+<div class="actions">
+<a class="btn" href="https://github.com/n-elnouby/SessionistApp/releases/latest">Download for macOS (Direct DMG)</a>
+<a class="btn btn-secondary" href="https://apps.apple.com/app/id6758464286">Get on the iOS App Store</a>
+</div>
+<p class="muted small">macOS 14+ &middot; Universal &middot; Notarized &middot; Includes Recomp Hub &amp; iCloud Sync</p>
 <div class="card">
 <p>Sessionist keeps your game library and measures your playtime: start a session with a tap, from a widget or Shortcuts, or let the Mac app track every game automatically. See how long a game takes, focus on one at a time and keep your wishlist and gaming events in one place.</p>
 <ul>
 <li>Session timer with Live Activity, widgets and Shortcuts</li>
 <li>Automatic tracking on the Mac: Steam, Epic, GOG, GeForce NOW, App Store and your own builds</li>
-<li>Main Story, Main + Extras and Completionist lengths next to your own time</li>
+<li>Recomp Hub on Mac (Direct Edition): browse, install, build and track native macOS &amp; iOS recompilations and decompilation ports</li>
+<li>Main Story, Main + Extras, Completionist and anonymous community lengths next to your own time</li>
 <li>Focus, Up Next, On Hold, ratings, notes and smart filters</li>
 <li>Wishlist with release countdowns and sale alerts; gaming events</li>
-<li>Couch Mode on the Mac for your controller and TV</li>
+<li>Couch Mode on the Mac for your controller and TV, plus Discord Rich Presence</li>
 <li>Syncs through your own iCloud account &mdash; no account, no ads, no tracking</li>
 </ul>
 </div>
-<p><a href="https://apps.apple.com/app/id6758464286">Get Sessionist on the App Store</a></p>
 <p class="muted">Questions? See <a href="support.html">Support</a> or write to <a href="mailto:noubyte@absan.de?subject=Sessionist">noubyte@absan.de</a>.</p>
 </main></body></html>
