@@ -22,17 +22,17 @@ Not syncing? Check that Sessionist may use iCloud: on iPhone, **Settings → [yo
 ### Mac
 
 <p align="center">
-  <img src="screenshots/mac-01_playing.jpg" width="49%" alt="Automatic tracking on the Mac">
-  <img src="screenshots/mac-07_detail.jpg" width="49%" alt="Game details with GeForce NOW">
-  <img src="screenshots/mac-02_tracking.jpg" width="49%" alt="Live session tracking on the Mac">
-  <img src="screenshots/mac-06_events.jpg" width="49%" alt="Gaming events on the Mac">
+  <img src="screenshots/mac-playing.png" width="49%" alt="Automatic tracking on the Mac">
+  <img src="screenshots/mac-detail.png" width="49%" alt="Game details with GeForce NOW">
+  <img src="screenshots/mac-tracking.png" width="49%" alt="Live session tracking on the Mac">
+  <img src="screenshots/mac-events.png" width="49%" alt="Gaming events on the Mac">
 </p>
 
 ### iPhone
 
 <p align="center">
-  <img src="screenshots/ios-01_playing.jpg" width="24%" alt="Playing list on iPhone">
-  <img src="screenshots/ios-02_tracking.jpg" width="24%" alt="Game lengths on iPhone">
-  <img src="screenshots/ios-03_widgets.jpg" width="24%" alt="Widgets and Live Activity">
-  <img src="screenshots/ios-05_wishlist.jpg" width="24%" alt="Wishlist with release countdowns">
+  <img src="screenshots/ios-playing.jpg" width="24%" alt="Playing list on iPhone">
+  <img src="screenshots/ios-tracking.jpg" width="24%" alt="Game lengths on iPhone">
+  <img src="screenshots/ios-widgets.jpg" width="24%" alt="Widgets and Live Activity">
+  <img src="screenshots/ios-wishlist.jpg" width="24%" alt="Wishlist with release countdowns">
 </p>
