@@ -28,6 +28,12 @@ Not syncing? Check that Sessionist may use iCloud: on iPhone, **Settings → [yo
   <img src="screenshots/mac-events.png" width="49%" alt="Gaming events on the Mac">
 </p>
 
+**Recomp Hub** (Direct edition): native ports of classic games for Mac and iPhone, with cover art and one-click installs. You bring your own copy of the game.
+
+<p align="center">
+  <img src="screenshots/mac-hub.png" width="98%" alt="Recomp Hub with native ports as game cards">
+</p>
+
 ### iPhone
 
 <p align="center">
