@@ -42,3 +42,9 @@ Not syncing? Check that Sessionist may use iCloud: on iPhone, **Settings → [yo
   <img src="screenshots/ios-widgets.jpg" width="24%" alt="Widgets and Live Activity">
   <img src="screenshots/ios-wishlist.jpg" width="24%" alt="Wishlist with release countdowns">
 </p>
+
+Turn the iPhone sideways for the **launcher**, made for playing with a controller:
+
+<p align="center">
+  <img src="screenshots/ios-launcher.jpg" width="98%" alt="Landscape launcher on iPhone">
+</p>
