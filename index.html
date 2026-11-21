@@ -18,6 +18,11 @@ nav a { text-decoration:none; }
 .btn { display:inline-block; padding:11px 18px; border-radius:12px; font-weight:600; text-decoration:none; background:var(--accent); color:var(--accent-ink); }
 .btn-secondary { background:var(--card); color:var(--ink); border:1px solid var(--border); }
 .small { font-size:14px; margin-top:4px; }
+.shots { margin: 28px 0 8px; }
+.shots img { display:block; width:100%; height:auto; border-radius:14px; border:1px solid var(--border); }
+.shots-mac { display:grid; grid-template-columns:1fr; gap:14px; }
+.shots-ios { display:grid; grid-template-columns:repeat(4, 1fr); gap:10px; margin-top:14px; }
+@media (max-width: 560px) { .shots-ios { grid-template-columns:repeat(2, 1fr); } }
 </style></head>
 <body><main>
 <nav><a href="./">Sessionist</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
@@ -41,5 +46,18 @@ nav a { text-decoration:none; }
 <li>Syncs through your own iCloud account &mdash; no account, no ads, no tracking</li>
 </ul>
 </div>
+<section class="shots" aria-label="Screenshots">
+<h2>Screenshots</h2>
+<div class="shots-mac">
+<img src="screenshots/mac-01_playing.jpg" alt="Sessionist on the Mac: automatic tracking" loading="lazy" width="1600" height="1000">
+<img src="screenshots/mac-07_detail.jpg" alt="Game details with lengths and GeForce NOW" loading="lazy" width="1600" height="1000">
+</div>
+<div class="shots-ios">
+<img src="screenshots/ios-01_playing.jpg" alt="Playing list on iPhone" loading="lazy" width="640" height="1390">
+<img src="screenshots/ios-02_tracking.jpg" alt="Game lengths on iPhone" loading="lazy" width="640" height="1390">
+<img src="screenshots/ios-03_widgets.jpg" alt="Widgets and Live Activity" loading="lazy" width="640" height="1390">
+<img src="screenshots/ios-05_wishlist.jpg" alt="Wishlist with release countdowns" loading="lazy" width="640" height="1390">
+</div>
+</section>
 <p class="muted">Questions? See <a href="support.html">Support</a> or write to <a href="mailto:noubyte@absan.de?subject=Sessionist">noubyte@absan.de</a>.</p>
 </main></body></html>
