@@ -46,5 +46,7 @@ Not syncing? Check that Sessionist may use iCloud: on iPhone, **Settings → [yo
 Turn the iPhone sideways for the **launcher**, made for playing with a controller:
 
 <p align="center">
-  <img src="screenshots/ios-launcher.jpg" width="98%" alt="Landscape launcher on iPhone">
+  <img src="screenshots/ios-launcher-1.jpg" width="98%" alt="Landscape launcher: games ready to launch">
+  <img src="screenshots/ios-launcher-2.jpg" width="49%" alt="Landscape launcher: Continue Playing, with games you can start on your Mac">
+  <img src="screenshots/ios-launcher-3.jpg" width="49%" alt="Landscape launcher: Under 10 Hours">
 </p>
